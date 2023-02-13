@@ -140,11 +140,11 @@ void loop() {
     // }  
   }
   updateSliderValues();
-  if(!buttonState){
+  //if(!buttonState){
     sendSliderValues(); // Actually send data (all the time)
-  }else{
-    setRGBValues();
-  }
+  //}else{
+  //  setRGBValues();
+  //}
   // printSliderValues(); // For debug
   //Serial.println(buttonState);
   delay(10);
